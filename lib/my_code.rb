@@ -15,7 +15,8 @@ def reduce(array, optional=nil)
   if optional
     sum = optional
     i = 0 
-  else sum = array[0]
+  else 
+    sum = array[0]
     i = 1 
   end 
   
