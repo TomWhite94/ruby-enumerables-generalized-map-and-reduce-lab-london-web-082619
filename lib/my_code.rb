@@ -13,4 +13,4 @@ end
 
 def reduce(array, optional=nil)
   if optional
-    
+    num1 = optional
