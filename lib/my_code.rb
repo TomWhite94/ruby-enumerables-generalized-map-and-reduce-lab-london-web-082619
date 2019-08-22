@@ -5,8 +5,7 @@ def map(array)
  yield (array[i])
  
  
- 
- end 
+  end 
  
   
 end 
