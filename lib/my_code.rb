@@ -20,3 +20,4 @@ def reduce(array, optional=nil)
   end 
   
   while i < array.length 
+  yield ()
