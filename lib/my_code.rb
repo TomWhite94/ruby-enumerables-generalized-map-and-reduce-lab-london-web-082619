@@ -13,11 +13,11 @@ end
 
 def reduce(array, optional=nil)
   if optional
-    num1 = optional
+    sum = optional
     i = 0 
-  else num1 = [0]
+  else sum = [0]
     i = 1 
   end 
   
   while i < array.length 
-  yield (num1, array[i])
+  yield (sum, array[i])
