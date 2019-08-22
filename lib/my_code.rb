@@ -15,4 +15,4 @@ def reduce(array, optional=nil)
   if optional
     num1 = optional
     i = 0 
-  else 
+  else num1 = [0]
